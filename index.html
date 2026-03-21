@@ -20,6 +20,8 @@
         </div>
 
         <div class="container">
+            <button id="rotateUp" onclick="rotateCubeUp();">👆</button>
+            <button id="rotateLeft" onclick="rotateCubeLeft();">👈</button>
             <div class="cube">
                 <div class="cube-cell e-1 first-row first-column"></div>
                 <div class="cube-cell e-2 first-row"></div>
@@ -47,10 +49,13 @@
                 <div class="cube-cell e-24 last-row"></div>
                 <div class="cube-cell e-25 last-row last-column"></div>
             </div>
+            <button id="rotateRight" onclick="rotateCubeRight();">👉</button>
+            <button id="rotateBottom" onclick="rotateCubeDown();">👇</button>
+
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 
-<script src="script.js"></script>
 
 </html>
